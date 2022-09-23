@@ -1,0 +1,17 @@
+[tool.poetry] 
+name = "hackathon-warmup" 
+version = "1.0.0" 
+description = "hackathon warmup"
+authors = ["akki2825 <akhilesh.rocking@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.0"
+scikit-learn = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+numpy = "^1.23.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
